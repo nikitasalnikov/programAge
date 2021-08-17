@@ -1,0 +1,16 @@
+.modal {
+    display: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background: gray;
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+    padding: 25px;
+    width: 570px;
+    margin: 25px auto;
+}
+
+.modal.active {
+    display: block;
+}
